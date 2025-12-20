@@ -39,10 +39,7 @@ This repository hosts the source code for Foo, a dynamic food ordering website b
 
 ## Run Locally
 
-Clone the project
 
-```bash
-    git clone https://github.com/Mshandev/Food-Delivery
 ```
 Go to the project directory
 
