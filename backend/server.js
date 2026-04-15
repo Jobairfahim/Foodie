@@ -9,19 +9,12 @@ import orderRouter from "./routes/orderRoute.js";
 
 // app config
 const app = express()
-const port = 5000
+const port = process.env.PORT || 5001
 
 //middlewares
 app.use(express.json())
 app.use(cors())
 
-app.get("/",(req,res)=>{
-    res.send("API working")
-})
-
-app.listen(port, () => {
-  console.log(`Server started on http://localhost:${port}`)
-});
 //mongodb+srv://foodstack:dbUserPassword@cluster0.ygs9glu.mongodb.net/?
 // DB connection
 connectDB();
